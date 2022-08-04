@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -22,8 +21,6 @@ h1 {
   color: #57d9e5;
 }
 
-
-
 p {
   font-size: 2rem;
   color: #60dcef;
@@ -36,8 +33,39 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+/* FOR ROLL BUTTON */
+
+button {
+  height: 3em;
+  width: 8em;
+  border: none;
+  border-radius: 10em;
+  background: #016dd9;
+  font-size: 17px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+@media screen and (max-width: 789px) {
+  button {
+    top: 50%;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  button {
+    top: 90%;
+  }
 }
